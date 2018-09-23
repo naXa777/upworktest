@@ -1,13 +1,13 @@
 # UpWork Spring MVC test
 
-The project includes code samples _similar_ to the ones in UpWork Spring MVC test.
+The project includes code samples _similar_ to the ones in [UpWork Spring MVC test](https://www.upwork.com/ab/tests/test/996).
 
 A few important differences:
 
 |                  | Language | Dependencies                             | Packaging |
 | ---------------- | :-----:  | :--------------------------------------: | :-------: |
-| UpWork test:     | Java     | Spring Web MVC                           | WAR       |
-| This repository: | Kotlin   | Spring Boot 2 + Spring Boot Starter Web  | JAR       |
+| UpWork test:     | [Java](https://www.java.com/)       | [Spring Web MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html#mvc) | [WAR](https://spring.io/understanding/WAR)                                                |
+| This repository: | [Kotlin](https://kotlinlang.org/)   | [Spring Boot 2](https://spring.io/projects/spring-boot) + Spring Boot Starter Web                     | [JAR](https://docs.spring.io/spring-boot/docs/current/reference/html/executable-jar.html) |
 
 Additional tools used to make this app great:
 
