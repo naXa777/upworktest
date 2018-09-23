@@ -1,7 +1,7 @@
 buildscript {
 	ext {
 		kotlinVersion = '1.2.70'
-		springBootVersion = '2.1.0.M3'
+		springBootVersion = '2.0.5.RELEASE'
 	}
 	repositories {
 		mavenCentral()
@@ -51,6 +51,8 @@ dependencies {
 	compile("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	compile("org.jetbrains.kotlin:kotlin-reflect")
 	compile('io.github.microutils:kotlin-logging:1.6.10')
+	compile('de.codecentric:spring-boot-admin-starter-server:2.0.3')
+	compile('de.codecentric:spring-boot-admin-starter-client:2.0.3')
 
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
